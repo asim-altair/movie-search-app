@@ -1,0 +1,24 @@
+.card {
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 550px;
+  border-radius: 0 0 10px 10px;
+  text-align: left;
+  color: rgb(221, 221, 221);
+  margin: 20px;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card p {
+  margin-left: 10px;
+  color: rgb(160, 160, 160);
+}
+.card p i {
+  color: yellow;
+}
+.card h4 {
+  margin-left: 10px;
+}
